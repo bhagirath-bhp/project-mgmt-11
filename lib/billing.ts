@@ -8,9 +8,9 @@ const client = new Client().setEndpoint("https://cloud.appwrite.io/v1").setProje
 const databases = new Databases(client)
 
 // Database and collection IDs
-const DATABASE_ID = "67d05a6a00158fda71cc"
-const TASKS_COLLECTION_ID = "67d0654f0006ea9c30ed"
-const BILLS_COLLECTION_ID = "680e255f00117075aa49" // You'll need to create this collection in Appwrite
+const DATABASE_ID = ""
+const TASKS_COLLECTION_ID = ""
+const BILLS_COLLECTION_ID = "" // You'll need to create this collection in Appwrite
 
 // Calculate total compensation for a developer in a project
 export async function calculateDeveloperCompensation(

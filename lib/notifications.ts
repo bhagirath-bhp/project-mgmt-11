@@ -7,8 +7,8 @@ const client = new Client().setEndpoint("https://cloud.appwrite.io/v1").setProje
 const databases = new Databases(client)
 
 // Database and collection IDs
-const DATABASE_ID = "67d05a6a00158fda71cc"
-const NOTIFICATIONS_COLLECTION_ID = "68037b050000768653f2" // You'll need to create this collection in Appwrite
+const DATABASE_ID = ""
+const NOTIFICATIONS_COLLECTION_ID = "" // You'll need to create this collection in Appwrite
 
 // Notification types
 export const NOTIFICATION_TYPES = {

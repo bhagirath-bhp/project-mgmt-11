@@ -7,8 +7,8 @@ const account = new Account(client)
 const databases = new Databases(client)
 
 // Database and collection IDs
-const DATABASE_ID = "67d05a6a00158fda71cc"
-const USERS_COLLECTION_ID = "67d05a76000865443707"
+const DATABASE_ID = ""
+const USERS_COLLECTION_ID = ""
 
 // Update the createAccount function to include the role
 export async function createAccount(email: string, password: string, name: string, role = "developer") {
